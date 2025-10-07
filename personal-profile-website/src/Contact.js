@@ -46,18 +46,24 @@ function Contact() {
               <a
                 href="https://github.com/AllanRoz"
                 className="social-link github"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="social-icon">🐙</span> GitHub
               </a>
               <a
                 href="https://www.linkedin.com/in/allan-rozario/"
                 className="social-link linkedin"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="social-icon">💼</span> LinkedIn
               </a>
               <a
                 href="https://www.instagram.com/allanjroza/"
                 className="social-link instagram"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <span className="social-icon">📸</span> Instagram
               </a>
