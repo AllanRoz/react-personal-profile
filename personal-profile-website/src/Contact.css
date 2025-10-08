@@ -1,6 +1,6 @@
 /* Contact Section Styles */
 .contact-section {
-  padding: 10px 0;
+  padding: 3px 0;
   color: black;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@
   position: relative;
 }
 .info-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 50%;

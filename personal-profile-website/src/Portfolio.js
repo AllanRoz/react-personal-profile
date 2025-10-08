@@ -7,18 +7,43 @@ class Portfolio extends Component {
     this.state = {
       projects: [
         {
-          project_image: "",
-          title: "E-commerce Website",
+          project_image: "assets/primewell_clinic.png",
+          title: "Primewell Clinic",
           description:
-            "A full-stack e-commerce platform built with React and Node.js",
-          technologies: ["React", "Node.js", "MongoDB", "CSS3"],
+            "A full-stack medical platform built with React and Node.js",
+          technologies: ["React", "Node.js", "MySQL", "AntD"],
+          project_live_demo:
+            "https://cs490-gp-frontend-production.up.railway.app/",
+          project_view_code:
+            "https://github.com/Aiden-Barrera/CS490-GP-Frontend",
         },
         {
-          project_image: "",
-          title: "Task Management App",
+          project_image:
+            "https://static.vecteezy.com/system/resources/thumbnails/004/141/669/small_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg",
+          title: "Digital Motor Vehicle Show",
           description:
-            "A collaborative task management application with real-time updates",
-          technologies: ["React", "Socket.io", "Express", "PostgreSQL"],
+            "A website where you can view and upload images of Cars, SUVs, and Motorcycles",
+          technologies: ["HTML", "JavaScript", "CSS", "PHP"],
+          project_live_demo: "",
+          project_view_code: "",
+        },
+        {
+          project_image:
+            "https://static.vecteezy.com/system/resources/thumbnails/004/141/669/small_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg",
+          title: "Pet Hotel Reservation Website",
+          description: "A website where you can reserve a hotel for your Pets",
+          technologies: ["HTML", "JavaScript", "CSS", "PHP"],
+          project_live_demo: "",
+          project_view_code: "",
+        },
+        {
+          project_image: "assets/trivia_bot.png",
+          title: "Trivia Discord Bot",
+          description:
+            "A discord bot that gives a multiple-choice trivia question to the user when invoked",
+          technologies: ["JavaScript", "Discord.js", "Node.js"],
+          project_live_demo: "",
+          project_view_code: "https://github.com/AllanRoz/discord-trivia-bot",
         },
       ],
     };
@@ -26,60 +51,54 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div className="portfolio-section">
-        {
-          //Use this section to list your projects dynamically from state using the map function
-          <section id="portfolio" className="portfolio-section">
-            <div className="portfolio-container">
-              <div className="portfolio-info">
-                <h3 className="info-title">Portfolio</h3>
-                {this.state.projects.map((info, index) => (
-                  <div key={index} className="portfolio-card">
-                    <span className="portfolio-icon">{info.icon}</span>
-                    {info.link ? (
-                      <span>
-                        <strong>{info.title}:</strong>{" "}
-                        <a href={info.link} className="portfolio-value">
-                          {info.detail}
-                        </a>
-                      </span>
-                    ) : (
-                      <span>
-                        <strong>{info.title}:</strong>{" "}
-                        <span className="portfolio-value">{info.detail}</span>
-                      </span>
-                    )}
-                  </div>
-                ))}
+      <section id="portfolio" className="portfolio-section">
+        <div className="portfolio-container">
+          <h2 className="portfolio-title">My Portfolio</h2>
 
-                <div className="social-media">
-                  <h4 className="social-title">Follow Me</h4>
-                  <div className="social-links">
+          <div className="portfolio-content">
+            {this.state.projects.map((project) => (
+              <div key={project.id} className="portfolio-block">
+                <img
+                  src={project.project_image}
+                  alt={`Screenshot of ${project.title}`}
+                  className="project-image"
+                />
+
+                <div className="project-details">
+                  <h2 className="project-title">{project.title}</h2>
+                  <p className="project-description">{project.description}</p>
+
+                  <div className="technologies">
+                    {project.technologies.map((tech, index) => (
+                      <span key={index} className="technology">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="buttons">
                     <a
-                      href="https://github.com/AllanRoz"
-                      className="social-link github"
+                      href={project.project_live_demo}
+                      className="portfolio-btn btn-live-demo"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <span className="social-icon">🐙</span> GitHub
+                      Live Demo
                     </a>
                     <a
-                      href="https://www.linkedin.com/in/allan-rozario/"
-                      className="social-link linkedin"
+                      href={project.project_view_code}
+                      className="portfolio-btn btn-view-code"
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
-                      <span className="social-icon">💼</span> LinkedIn
-                    </a>
-                    <a
-                      href="https://www.instagram.com/allanjroza/"
-                      className="social-link instagram"
-                    >
-                      <span className="social-icon">📸</span> Instagram
+                      View Code
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-        }
-      </div>
+            ))}
+          </div>
+        </div>
+      </section>
     );
   }
 }

@@ -19,7 +19,7 @@
 }
 
 .resume-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -10px;
   left: 50%;
@@ -57,7 +57,7 @@
 }
 
 .section-title::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -2px;
   left: 0;
@@ -65,7 +65,6 @@
   height: 2px;
   background-color: #595959;
 }
-
 
 .item-title {
   font-size: 1.2rem;
@@ -88,7 +87,8 @@
   flex-wrap: wrap;
 }
 
-.item-period, .item-gpa {
+.item-period,
+.item-gpa {
   background-color: #e9ecef;
   color: #495057;
   padding: 0.3rem 0.8rem;
@@ -112,7 +112,7 @@
 }
 
 .responsibilities li::before {
-  content: '▸';
+  content: "▸";
   position: absolute;
   left: 0;
   color: #595959;
@@ -152,4 +152,3 @@
   font-size: 0.85rem;
   font-weight: 600;
 }
-

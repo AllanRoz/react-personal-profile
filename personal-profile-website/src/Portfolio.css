@@ -1,0 +1,143 @@
+.portfolio-section {
+  padding: 10px 0;
+  min-height: 100vh;
+}
+
+.portfolio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+.portfolio-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.portfolio-title::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #272727;
+}
+
+.portfolio-content {
+  display: grid;
+  gap: 30px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .portfolio-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .portfolio-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.portfolio-block {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-image {
+  width: 100%;
+  height: 180px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  transition: opacity 0.3s;
+}
+
+.project-details {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1f2937;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.project-description {
+  color: #4b5563;
+  margin-bottom: 20px;
+  flex-grow: 1;
+  line-height: 1.5;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+  margin-top: auto;
+}
+
+.technology {
+  padding: 6px 14px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #0285ff;
+  background-color: #e0e7ff;
+  border-radius: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.portfolio-btn {
+  flex: 1;
+  padding: 12px 16px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-live-demo {
+  background-color: #0285ff;
+  color: #ffffff;
+  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+}
+
+.btn-live-demo:hover {
+  background-color: #00498d;
+  transform: scale(1.02);
+}
+
+.btn-view-code {
+  background-color: #00000085;
+  color: #ffffff;
+}
+
+.btn-view-code:hover {
+  background-color: #001031b9;
+  transform: scale(1.02);
+}
