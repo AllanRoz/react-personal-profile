@@ -2,7 +2,6 @@ import { Component } from "react";
 import "./About.css";
 
 class About extends Component {
-  // 1. Expanded the list of skills to match the image/concept
   skills = [
     "React",
     "JavaScript",
@@ -24,7 +23,7 @@ class About extends Component {
   render() {
     return (
       <div className="about-section">
-        <h2 className="about-title">About Me</h2>
+        <h2 className="about-title">About Mee</h2>
         <div className="about-content">
           <div className="profile-image">
             <img src="assets/allan.jpg" alt="Allan"></img>
