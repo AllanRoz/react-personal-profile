@@ -38,7 +38,9 @@ function Resume() {
       "JavaScript",
       "Python",
       "Java",
+      "C",
       "C++",
+      "Assembly",
       "HTML5",
       "CSS3",
       "PHP",
@@ -46,11 +48,21 @@ function Resume() {
     "Frameworks & Libraries": [
       "React",
       "Node.js",
-      "Express",
+      "Express.js",
       "Bootstrap",
       "jQuery",
     ],
-    "Tools & Technologies": ["Git", "VS Code", "MySQL", "Figma", "Linux"],
+    "Tools & Technologies": [
+      "Git",
+      "VS Code",
+      "MySQL",
+      "Figma",
+      "Jira",
+      "Linux",
+      "Selenium",
+      "Postman",
+      "Wireshark",
+    ],
   };
 
   return (

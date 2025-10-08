@@ -17,19 +17,18 @@ class Portfolio extends Component {
           project_view_code:
             "https://github.com/Aiden-Barrera/CS490-GP-Frontend",
         },
+        // {
+        //   project_image:
+        //     "https://static.vecteezy.com/system/resources/thumbnails/004/141/669/small_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg",
+        //   title: "Digital Motor Vehicle Show",
+        //   description:
+        //     "A website where you can view and upload images of Cars, SUVs, and Motorcycles",
+        //   technologies: ["HTML", "JavaScript", "CSS", "PHP"],
+        //   project_live_demo: "",
+        //   project_view_code: "",
+        // },
         {
-          project_image:
-            "https://static.vecteezy.com/system/resources/thumbnails/004/141/669/small_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg",
-          title: "Digital Motor Vehicle Show",
-          description:
-            "A website where you can view and upload images of Cars, SUVs, and Motorcycles",
-          technologies: ["HTML", "JavaScript", "CSS", "PHP"],
-          project_live_demo: "",
-          project_view_code: "",
-        },
-        {
-          project_image:
-            "https://static.vecteezy.com/system/resources/thumbnails/004/141/669/small_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg",
+          project_image: "assets/pet_hotel_website.png",
           title: "Pet Hotel Reservation Website",
           description: "A website where you can reserve a hotel for your Pets",
           technologies: ["HTML", "JavaScript", "CSS", "PHP"],
