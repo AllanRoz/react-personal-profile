@@ -23,7 +23,7 @@ class About extends Component {
   render() {
     return (
       <div className="about-section">
-        <h2 className="about-title">About Mee</h2>
+        <h2 className="about-title">About Me</h2>
         <div className="about-content">
           <div className="profile-image">
             <img src="assets/allan.jpg" alt="Allan"></img>
@@ -41,7 +41,7 @@ class About extends Component {
               snowboard, play video games, watch shows or movies and more.
             </p>
 
-            <h3>Skills & Technologies</h3>
+            <h2>Skills & Technologies</h2>
             <div className="skills-box">
               {this.skills.map((skill) => (
                 <div key={skill} className="skill-tag">

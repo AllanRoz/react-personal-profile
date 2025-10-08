@@ -56,7 +56,7 @@ class Portfolio extends Component {
 
           <div className="portfolio-content">
             {this.state.projects.map((project) => (
-              <div key={project.id} className="portfolio-block">
+              <div className="portfolio-block">
                 <img
                   src={project.project_image}
                   alt={`Screenshot of ${project.title}`}
