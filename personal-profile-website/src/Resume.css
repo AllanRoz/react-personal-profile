@@ -13,7 +13,7 @@
 .resume-title {
   text-align: center;
   font-size: 2.5rem;
-  color: #333;
+  color: #000000;
   margin-bottom: 3rem;
   position: relative;
 }
@@ -26,7 +26,7 @@
   transform: translateX(-50%);
   width: 60px;
   height: 3px;
-  background-color: #272727;
+  background-color: #000000;
 }
 
 .download-btn-container {
@@ -74,7 +74,7 @@
 }
 
 .item-subtitle {
-  color: #666;
+  color: #000000;
   font-size: 1rem;
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -90,7 +90,7 @@
 .item-period,
 .item-gpa {
   background-color: #e9ecef;
-  color: #495057;
+  color: #000000;
   padding: 0.3rem 0.8rem;
   border-radius: 15px;
   font-size: 0.85rem;
@@ -104,7 +104,7 @@
 }
 
 .responsibilities li {
-  color: #666;
+  color: #000000;
   line-height: 1.6;
   margin-bottom: 0.5rem;
   padding-left: 1.2rem;
