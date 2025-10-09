@@ -32,7 +32,7 @@ class Portfolio extends Component {
           title: "Pet Hotel Reservation Website",
           description: "A website where you can reserve a hotel for your Pets",
           technologies: ["HTML", "JavaScript", "CSS", "PHP"],
-          project_live_demo: "",
+          project_live_demo: "https://web.njit.edu/~ar358/assignments/assignment_4/index.html",
           project_view_code: "",
         },
         {
