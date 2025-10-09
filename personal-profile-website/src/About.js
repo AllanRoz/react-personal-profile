@@ -38,7 +38,7 @@ class About extends Component {
             </p>
             <p>
               Some of my hobbies outside of coding is I like to go on hikes,
-              snowboard, play video games, watch shows or movies and more.
+              snowboard, gym, play video games, watch shows or movies and more.
             </p>
 
             <h2>Skills & Technologies</h2>
