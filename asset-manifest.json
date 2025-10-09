@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-personal-profile/static/css/main.df19f40c.css",
-    "main.js": "/react-personal-profile/static/js/main.dd168cdf.js",
+    "main.js": "/react-personal-profile/static/js/main.2315cc18.js",
     "index.html": "/react-personal-profile/index.html",
     "main.df19f40c.css.map": "/react-personal-profile/static/css/main.df19f40c.css.map",
-    "main.dd168cdf.js.map": "/react-personal-profile/static/js/main.dd168cdf.js.map"
+    "main.2315cc18.js.map": "/react-personal-profile/static/js/main.2315cc18.js.map"
   },
   "entrypoints": [
     "static/css/main.df19f40c.css",
-    "static/js/main.dd168cdf.js"
+    "static/js/main.2315cc18.js"
   ]
 }
