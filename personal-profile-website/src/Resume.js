@@ -69,6 +69,16 @@ function Resume() {
     <section id="resume" className="resume-section">
       <div className="resume-container">
         <h2 className="resume-title">Resume</h2>
+        <div className="social-links">
+          <a
+            href="https://web.njit.edu/~ar358/"
+            className="social-link instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="social-icon">📜</span> Full Resume
+          </a>
+        </div>
 
         <div className="resume-content">
           {/* Education Section */}
