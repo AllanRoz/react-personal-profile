@@ -44,6 +44,16 @@ class Portfolio extends Component {
           project_live_demo: "",
           project_view_code: "https://github.com/AllanRoz/discord-trivia-bot",
         },
+        {
+          project_image: "assets/web_chat_app.png",
+          title: "Web Chat App",
+          description:
+            "A Chat App hosted on the web where only the last message is saved",
+          technologies: ["HTML", "JavaScript", "PHP", "MySQL"],
+          project_live_demo:
+            "https://web.njit.edu/~ar358/classes/IT202/assignments/assignment_5/index.php",
+          project_view_code: "",
+        },
       ],
     };
   }
