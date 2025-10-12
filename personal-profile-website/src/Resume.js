@@ -71,7 +71,7 @@ function Resume() {
         <h2 className="resume-title">Resume</h2>
         <div className="social-links">
           <a
-            href="https://web.njit.edu/~ar358/"
+            href="https://web.njit.edu/~ar358/pages/resume/index.html"
             className="social-link instagram"
             target="_blank"
             rel="noopener noreferrer"

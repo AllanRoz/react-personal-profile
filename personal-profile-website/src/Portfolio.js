@@ -18,8 +18,7 @@ class Portfolio extends Component {
             "https://github.com/Aiden-Barrera/CS490-GP-Frontend",
         },
         {
-          project_image:
-            "assets/digital-car-show.png",
+          project_image: "assets/digital-car-show.png",
           title: "Digital Motor Vehicle Show",
           description:
             "A website where you can view and upload images of Cars, SUVs, and Motorcycles",
@@ -32,7 +31,8 @@ class Portfolio extends Component {
           title: "Pet Hotel Reservation Website",
           description: "A website where you can reserve a hotel for your Pets",
           technologies: ["HTML", "JavaScript", "CSS", "PHP"],
-          project_live_demo: "https://web.njit.edu/~ar358/assignments/assignment_4/index.html",
+          project_live_demo:
+            "https://web.njit.edu/~ar358/classes/IT202/assignments/assignment_4/index.html",
           project_view_code: "",
         },
         {
