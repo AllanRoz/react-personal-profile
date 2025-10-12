@@ -90,6 +90,11 @@ class Portfolio extends Component {
                       className="portfolio-btn btn-live-demo"
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={(e) => {
+                        if (!project.project_live_demo) {
+                          e.preventDefault();
+                        }
+                      }}
                     >
                       Live Demo
                     </a>
@@ -98,6 +103,11 @@ class Portfolio extends Component {
                       className="portfolio-btn btn-view-code"
                       target="_blank"
                       rel="noopener noreferrer"
+                      onClick={(e) => {
+                        if (!project.project_view_code) {
+                          e.preventDefault();
+                        }
+                      }}
                     >
                       View Code
                     </a>
